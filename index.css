@@ -5,11 +5,13 @@ body {
 	background: rgb(243, 16, 16);
 }
 
-h1 {
-	color: #0cee1b;
-	font-family: 'Anton', sans-serif;
-}
-
 .section-title {
 	color: aqua;
+}
+#prod-overview h1 {
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+h1 {
+	font-family: sans-serif;
 }
