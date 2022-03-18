@@ -54,3 +54,10 @@ h1 {
 .main-nav__item {
 	display: inline-block;
 }
+.main-nav__item a {
+	margin: 0 10px;
+	font-weight: bold;
+	color: blueviolet;
+
+	text-decoration: none;
+}
