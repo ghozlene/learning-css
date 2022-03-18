@@ -28,13 +28,22 @@ h1 {
 	width: 100%;
 	background-color: green;
 }
+
 .main-header > div {
 	display: inline-block;
+	vertical-align: middle;
+}
+.main-header__brand {
+	text-decoration: none;
+	font-weight: bold;
+	color: blueviolet;
+	font-size: 22px;
+	vertical-align: middle;
 }
 .main-nav {
 	display: inline-block;
 	text-align: right;
-	width: calc(100% - 55px);
+	width: calc(100% - 75px);
 }
 .main-nav__items {
 	margin: 0;
