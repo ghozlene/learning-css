@@ -6,9 +6,9 @@ body {
 	margin: 0;
 }
 #prod-overview {
-	background: rgb(243, 16, 16);
+	background: url('freedom.jpg');
 	padding: 20px;
-	width: 700px;
+	width: 750px;
 	height: 570px;
 }
 
@@ -57,7 +57,7 @@ h1 {
 .main-nav__item a {
 	margin: 0 10px;
 	font-weight: bold;
-	color: blueviolet;
+	color: white;
 	text-decoration: none;
 	font-weight: bold;
 	padding: 3px;
@@ -67,4 +67,16 @@ h1 {
 .main-nav__item a:active {
 	color: white;
 	border-bottom: solid white;
+}
+.main-nav__item--cta a {
+	color: white;
+	background: #ff1b68;
+	padding: 8px 16px;
+	border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+	color: #ff1b68;
+	background: white;
+	border: none;
 }
