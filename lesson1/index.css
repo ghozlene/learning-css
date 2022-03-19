@@ -150,3 +150,13 @@ body {
 	background: white;
 	border: none;
 }
+
+.core-features {
+	background: #ff1b68;
+	margin-top: 80px;
+	padding: 12px;
+}
+.core-features > .section-title {
+	color: white;
+	margin: 32px;
+}
