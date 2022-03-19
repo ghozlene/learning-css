@@ -70,6 +70,22 @@ body {
 .plan__features li {
 	margin: 8px 0;
 }
+.button {
+	background: #0e4f1f;
+	color: white;
+	font: inherit;
+	padding: 8px;
+	border-radius: 10px;
+	border: 1.5px solid #0e4f1f;
+	cursor: pointer;
+	font-weight: bold;
+}
+.button:hover,
+.button:active {
+	background: #d5ffdc;
+	color: #0e4f1f;
+}
+
 /* h1 {
 	font-family: sans-serif;
 } */
