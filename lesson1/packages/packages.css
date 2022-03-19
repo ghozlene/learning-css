@@ -1,6 +1,12 @@
 main {
 	padding-top: 32px;
 }
+.backgroud {
+	background: url('../images/plans-background.jpg');
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
 .main-section {
 	border: 4px solid #0e4f1f;
 	border-top-right-radius: 20px;
