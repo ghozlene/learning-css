@@ -15,6 +15,7 @@ main {
 	background: #acfdc2;
 	border-left: none;
 	margin: 30px 150px 10px 0;
+	position: relative;
 }
 .main-section:hover,
 .main-section:active {
@@ -25,13 +26,24 @@ main {
 	text-decoration: none;
 	display: block;
 	cursor: pointer;
+	color: inherit;
 }
-
+.main-section__badge {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin: 10px;
+	font-size: 13px;
+	color: white;
+	padding: 5px;
+	background: #ff5454;
+}
 .main-section__link-title {
 	color: black;
 	font-weight: bold;
 	margin: 40px 20px 10px 10px;
 }
+
 .main-section__link-description {
 	color: gray;
 }
