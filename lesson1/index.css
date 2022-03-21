@@ -16,6 +16,7 @@
 	height: 540px;
 	margin-top: 10px;
 	width: 100%;
+	position: relative;
 }
 
 .section-title {
@@ -25,6 +26,9 @@
 #prod-overview h1 {
 	color: white;
 	font-family: 'Anton', sans-serif;
+	position: absolute;
+	bottom: 50%;
+	left: 3%;
 }
 .plan__list {
 	margin: auto;
@@ -114,6 +118,8 @@
 	border-radius: 50%;
 	background: #ffcede;
 	margin: auto;
+	padding: 20px;
+	vertical-align: middle;
 }
 
 .core-features__description {
