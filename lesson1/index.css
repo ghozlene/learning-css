@@ -1,6 +1,6 @@
 #prod-overview {
 	background: linear-gradient(to top, rgba(80, 0, 0, 0.6) 10%, transparent),
-		url('./images/freedom.jpg') left 10% bottom 20% / cover no-repeat border-box,
+		url('./images/freedom.jpg') left 10% bottom 80% / cover no-repeat border-box,
 		yellow;
 
 	/* background-size: cover;
@@ -13,9 +13,9 @@
 	/* background-image: radial-gradient(red 40%, black); */
 	padding: 10px;
 	vertical-align: top;
-	height: 540px;
+	height: 50vh;
 	margin-top: 10px;
-	width: 100%;
+	width: 100vw;
 	position: relative;
 }
 
@@ -27,7 +27,7 @@
 	color: white;
 	font-family: 'Anton', sans-serif;
 	position: absolute;
-	bottom: 50%;
+	bottom: 20%;
 	left: 3%;
 }
 .plan__list {
