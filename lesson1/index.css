@@ -1,16 +1,17 @@
 #prod-overview {
-	background: url('./images/freedom.jpg') left 10% bottom 20% / cover no-repeat
-		border-box;
+	/* background: url('./images/freedom.jpg') left 10% bottom 20% / cover no-repeat
+		border-box; */
 	/* background-size: cover;
 	background-position: left 10% bottom 10%;
 	background-repeat: no-repeat;
 	background-origin: border-box;
 	background-clip: padding-box;
 	background-attachment: local; */
+	background-image: linear-gradient(to left bottom, black, transparent);
 	padding: 10px;
-	border: 5px dashed red;
-	height: 500px;
-	margin-top: 40px;
+	vertical-align: top;
+	height: 540px;
+	margin-top: 10px;
 	width: 100%;
 }
 
