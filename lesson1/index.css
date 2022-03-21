@@ -1,7 +1,8 @@
 #prod-overview {
 	background: linear-gradient(to top, rgba(80, 0, 0, 0.6) 10%, transparent),
 		url('./images/freedom.jpg') left 10% bottom 20% / cover no-repeat border-box,
-		red;
+		yellow;
+
 	/* background-size: cover;
 	background-position: left 10% bottom 10%;
 	background-repeat: no-repeat;
