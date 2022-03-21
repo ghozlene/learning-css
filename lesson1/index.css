@@ -7,7 +7,8 @@
 	background-origin: border-box;
 	background-clip: padding-box;
 	background-attachment: local; */
-	background-image: linear-gradient(to left bottom, black, transparent);
+	/* background-image: linear-gradient(to left bottom, black, transparent); */
+	background-image: radial-gradient(red 40%, black);
 	padding: 10px;
 	vertical-align: top;
 	height: 540px;
