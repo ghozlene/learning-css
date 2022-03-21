@@ -13,11 +13,19 @@
 </head>
 
 <body>
-
+    <div class="backdrop"></div>
     <div class="backgroud"></div>
     <header class="main-header">
 
         <div>
+
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            </a>
+
             <a href="../index.html" class="main-header__brand">
                 <img src="../images/uhost-icon.png" alt="your server" />
             </a>
@@ -37,6 +45,19 @@
         </nav>
 
     </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="index.html">Packages</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="../customers/customers.html">Customers</a>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="../start-hosting/index.html">Start Hosting</a>
+            </li>
+        </ul>
+    </nav>
     <main>
         <section class="main-section">
             <a href="#" class="main-section_link">
@@ -79,6 +100,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="../shared.js"></script>
 </body>
 
 </html>
