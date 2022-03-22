@@ -14,28 +14,38 @@
 	padding: 10px;
 	vertical-align: top;
 	height: 50vh;
-	margin-top: 10px;
+	margin-top: 2.75rem;
 	width: 100vw;
 	position: relative;
 }
 
-.section-title {
-	color: green;
-	text-align: center;
-}
 #prod-overview h1 {
 	color: white;
 	font-family: 'Anton', sans-serif;
 	position: absolute;
 	bottom: 20%;
 	left: 3%;
+	font-size: 1.6rem;
+}
+
+@media (min-width: 40rem) {
+	#prod-overview {
+		height: 60vh;
+		background-position: 50% 10%;
+	}
+	#prod-overview h1 {
+		font-size: 2rem;
+	}
 }
 .plan__list {
 	margin: auto;
 	width: 80%;
 	text-align: center;
 }
-
+.section-title {
+	color: green;
+	text-align: center;
+}
 .plan {
 	background: #d5ffdc;
 	text-align: center;
