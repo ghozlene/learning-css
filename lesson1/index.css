@@ -10,10 +10,9 @@
 	background-attachment: local; */
 	/* background-image: linear-gradient(to left bottom, black, transparent); */
 	/* background-image: radial-gradient(red 40%, black); */
+
+	height: 80vh;
 	margin-top: 3.75rem;
-	vertical-align: top;
-	height: 33vh;
-	margin-top: 3rem;
 	width: 100vw;
 	position: relative;
 }
@@ -100,10 +99,18 @@
 	padding: 0;
 	text-align: center;
 }
-.core-feature {
-	display: inline-block;
-	width: 30%;
-	vertical-align: top;
+
+@media (min-width: 40rem) and(min-height:60rem) {
+	.core-feature__list {
+		display: block;
+		width: 100%;
+	}
+	.core-feature {
+		display: inline-block;
+		width: 30%;
+		max-width: 25rem;
+		vertical-align: top;
+	}
 }
 .core-feature__image {
 	height: 128px;
@@ -170,10 +177,10 @@
 	background: #ff5454;
 	border-color: #ff5454;
 }
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and(orientation:portrait) {
 	#prod-overview {
 		height: 40vh;
-		background-position: 50% 25%;
+		background-position: 30% 20%;
 	}
 	#prod-overview h1 {
 		font-size: 2rem;
