@@ -54,6 +54,11 @@ main {
 	border: #0e4f1f;
 }
 
+.signup-form input:invalid {
+	background: #ff5454;
+	border: red;
+}
+
 .signup-form button[type='submit'] {
 	display: block;
 	margin-top: 1rem;
