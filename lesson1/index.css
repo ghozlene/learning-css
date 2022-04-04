@@ -12,7 +12,7 @@
 	/* background-image: radial-gradient(red 40%, black); */
 
 	height: 80vh;
-	margin-top: 3.75rem;
+	margin-top: 3.5rem;
 	width: 100vw;
 	position: relative;
 }
@@ -100,7 +100,7 @@
 	text-align: center;
 }
 
-@media (min-width: 40rem) and(min-height:60rem) {
+@media (min-width: 40rem) and(min-height:40rem) {
 	.core-feature__list {
 		display: block;
 		width: 100%;
