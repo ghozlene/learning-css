@@ -8,15 +8,21 @@
 		100px;
 	/* row-gap: 10px;
 	column-gap: 20px; */
-	gap: 10px 30px;
+	/* gap: 10px 30px; */
+	grid-template-areas:
+		'header header header header'
+		' . . main main'
+		'footer footer footer footer';
 }
 
 .el1 {
 	background: rgba(255, 154, 72, 0.5);
+	grid-area: header;
 }
 
 .el2 {
 	background: rgba(255, 0, 0, 0.5);
+	grid-area: main;
 }
 
 .el3 {
@@ -26,6 +32,7 @@
 	/* grid-column-end: 5; */
 	grid-row-start: 1;
 	grid-row-end: 3;
+	grid-area: footer;
 }
 
 .el4 {
