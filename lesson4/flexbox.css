@@ -34,6 +34,7 @@ body {
 	padding: 10px;
 	border: 5px solid black;
 	margin: 10px;
+	align-self: flex-end;
 }
 
 .item-2 {
