@@ -44,6 +44,7 @@ body {
 	margin: 10px;
 	width: 250px;
 	font-size: 1.8rem;
+	order: -1;
 }
 
 .item-3 {
@@ -53,6 +54,7 @@ body {
 	border: 5px solid black;
 	margin: 10px;
 	height: 250px;
+	order: 1;
 }
 
 .item-4 {
