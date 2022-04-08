@@ -1,11 +1,17 @@
 .char-highlight {
   font-weight: bold;
   font-size: 1.4rem;
-  color: #521751;
+  color: black;
 }
 
 html {
   font-size: 94.75%;
+}
+
+@media (min-width: 40rem) {
+  html {
+    font-size: 125%;
+  }
 }
 
 body {
@@ -31,6 +37,12 @@ body {
           box-sizing: border-box;
 }
 
+@media (min-width: 40rem) {
+  .container {
+    padding: 3rem 0;
+  }
+}
+
 .sass-introduction {
   border: 0.05rem solid black;
   background: #b3b3b3;
@@ -41,6 +53,12 @@ body {
   width: 90%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media (min-width: 40rem) {
+  .sass-introduction {
+    width: 30rem;
+  }
 }
 
 .sass-introduction p {
@@ -56,6 +74,12 @@ body {
   width: 90%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media (min-width: 40rem) {
+  .sass-details {
+    width: 30rem;
+  }
 }
 
 .section-header {
@@ -97,18 +121,5 @@ body {
   color: white;
   background: black;
   border-color: #fa923f;
-}
-
-@media (min-width: 40rem) {
-  html {
-    font-size: 125%;
-  }
-  .container {
-    padding: 3rem 0;
-  }
-  .sass-introduction,
-  .sass-details {
-    width: 30rem;
-  }
 }
 /*# sourceMappingURL=index.css.map */
