@@ -45,6 +45,9 @@ body {
 	padding: $size-default * 2;
 
 	box-shadow: $size-tiny $size-tiny $size-tiny/2 #ccc;
+	p {
+		margin: 0;
+	}
 }
 
 .sass-section {
@@ -59,10 +62,6 @@ body {
 	}
 }
 
-.sass-introduction p {
-	margin: 0;
-}
-
 .sass-details {
 	@extend .sass-section;
 	padding: 1rem;
@@ -71,10 +70,9 @@ body {
 
 .section-header {
 	border-bottom: $border-default;
-}
-
-.section-header h1 {
-	margin: 0 0 1rem 0;
+	h1 {
+		margin: 0 0 1rem 0;
+	}
 }
 
 .documentation-links {
@@ -95,11 +93,12 @@ body {
 		display: block;
 		padding: 0.2rem;
 		border: $border-default;
-	}
-	.documentation-link:hover,
-	.documentation-links .documentation-link:active {
-		color: white;
-		background: black;
-		border-color: #fa923f;
+
+		&:hover,
+		&:active {
+			color: white;
+			background: black;
+			border-color: #fa923f;
+		}
 	}
 }
